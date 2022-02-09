@@ -126,7 +126,7 @@ console.log(person);
 Human.showQuestionAboutFeeling(); //How are you feeling, friend?!
 
 person.getAge(); /* Chris Hemsworth is 121 years old.
-                    How are you felling, friend?! */
+                    How are you feeling, friend?! */
 
 const person1 = new Human(`Charlie`, `Cox`, 1982);
 
@@ -139,7 +139,7 @@ const student = new Student(`Robert`, `Downey Jr.`, 1900);
 console.log(student);
 
 student.getAge(); /* Robert Downey Jr. is 122 years old.
-                     How are you felling, friend?!
+                     How are you feeling, friend?!
                      Are you ready to learn new things?! */
 
 // student.#getStudyQuestion(); /* Uncaught SyntaxError: Private field
